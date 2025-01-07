@@ -125,6 +125,9 @@ body{
 }
 
 /*Estilo do cabeçario*/
+.logo a img{
+    width: 230px;
+}
 header{
     padding: 40px 4%;
 }
@@ -151,8 +154,8 @@ header nav ul{
    display: flex;
 }
 
-header nav ul li{
-
+header nav ul li a{
+    font-size: larger;
     padding: 0 40px;
 }
 
