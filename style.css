@@ -115,7 +115,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 100vh;
 }
 
@@ -136,33 +136,35 @@ header > .interface{
 }
 
 header a{
-    color: rgb(68, 68, 68);
+    color: rgb(85, 84, 84);
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header a:hover{
-    color: black;
+    color: rgb(0, 0, 0);
     transform: scale(1.05);
 }
 header nav ul{
    list-style-type:none;
+   display: flex;
 }
 
 header nav ul li{
-    display:inline-block;
+
     padding: 0 40px;
 }
+
 header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: slategrey;
+    background-color: rgb(103, 103, 104);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
 }
 header .btn-contato button:hover{
-    box-shadow: 0px 8px rgb(76, 87, 99);
+    box-shadow: 0px 8px rgb(82, 82, 82);
 }
