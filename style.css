@@ -143,6 +143,10 @@ h2.titulo{
 h2.titulo span{
   color:rgb(82, 82, 82);
 }
+button:hover{
+  box-shadow: 0px 5px rgb(90, 90, 90);
+  transform: scale(1.05);
+}
 /*Estilo do cabeçario*/
 .logo a img{
     width: 230px;
@@ -182,10 +186,7 @@ header nav ul li a{
 }
 
 
-.btn-contato button:hover{
-    box-shadow: 0px 8px rgb(82, 82, 82);
-    transform: scale(1.05);
-  }
+
 /* Estilo do topo site */
 section.topo-site{
   padding:40px 4% ;
@@ -239,6 +240,7 @@ section.especialidades .flex{
   margin-top: 45px;
   transition: .2s;
  
+ 
 }
 .especialidades .especialidades-box:hover{
   transform: scale(1.05);
@@ -250,7 +252,48 @@ section.especialidades .flex{
   font-size: 70px;
   color:rgb(82, 82, 82);
 }
-.especialidades .especialidades-box h3{
-  font-size: 28px;
+.especialidades .especialidades-box{
+  font-size: 30px;
   margin: 15px 0%;
+}
+/* estilo sobre */
+section.sobre{
+  padding: 40px 4%;
+}
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+.sobre .txt-sobre{
+
+}
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+  color:rgb(82, 82, 82);
+  display: block;
+}
+.sobre .txt-sobre p{
+  margin: 20px 0;
+  text-align: justify;
+  font-size: 25px;
+}
+section.interface.img-sobre{
+  border-radius: 20% 20% 20% 20%;
+}
+
+.sobre .txt-sobre .btn-social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(103, 103, 104);
+  font-size: 22px;
+cursor: pointer;
+margin: 0 5px;
+transition: .2s;
 }
