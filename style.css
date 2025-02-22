@@ -297,3 +297,19 @@ cursor: pointer;
 margin: 0 5px;
 transition: .2s;
 }
+
+/* ESTILO DO PORTFOLIO */
+section.portfolio{
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px rgb(155, 155, 155);
+}
+
+section.portfolio.flex{
+  justify-content: space-around;
+}
+
+.img-port{
+  width: 360px;
+  height: 460px;
+  background-color: rgb(77, 77, 77);
+}
