@@ -286,7 +286,7 @@ section.interface.img-sobre{
   border-radius: 20% 20% 20% 20%;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -403,4 +403,34 @@ form .btn-enviar input{
   cursor: pointer;
   transition: .2s;
   font-size: 19px;
+}
+
+/* ESTILO FOOTER*/
+
+footer{
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px rgb(155, 155, 155);
+
+}
+
+footer .flex{
+  justify-content: space-between;
+}
+
+footer .line-footer{
+  padding: 20px 0;
+}
+
+.borda{
+  border-top: 2px solid black; 
+}
+
+footer .line-footer p i{
+  color: black;
+  font-size: 30px;
+}
+
+footer .line-footer p a{
+color: rgb(53, 53, 53);
+font-size: 18px;
 }
