@@ -324,7 +324,7 @@ section.portfolio.flex{
 .flex{
   display: flex;
   gap: 60px;
-  
+  flex-wrap: wrap;
 }
 
 .overlay{
