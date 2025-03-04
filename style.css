@@ -324,6 +324,7 @@ section.portfolio.flex{
 .flex{
   display: flex;
   gap: 60px;
+  
 }
 
 .overlay{
@@ -373,12 +374,12 @@ form input, form textarea{
   outline: 0;
   padding: 20px 15px;
   border-radius: 15px;
-  color: rgb(219, 219, 219);
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
 form input::placeholder{
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 form textarea{
@@ -393,6 +394,7 @@ form textarea::placeholder{
 form .btn-enviar{
   margin-top: 20px;
   text-align: center;
+
   
 }
 
@@ -403,6 +405,7 @@ form .btn-enviar input{
   cursor: pointer;
   transition: .2s;
   font-size: 19px;
+  color: white;
 }
 
 /* ESTILO FOOTER*/
@@ -430,7 +433,14 @@ footer .line-footer p i{
   font-size: 30px;
 }
 
-footer .line-footer p a{
-color: rgb(53, 53, 53);
-font-size: 18px;
+footer .line-footer p a {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+
+#ft-sobre{
+border-radius: 20px;
 }
