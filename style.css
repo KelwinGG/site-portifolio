@@ -153,7 +153,7 @@ form .btn-enviar input:hover {
 
 /*Estilo do cabeçario*/
 .logo a img {
-  width: 230px;
+  width: 240px;
 }
 
 header {
@@ -499,7 +499,11 @@ footer .line-footer p a {
   .btn-contato {
     display: none;
   }
-
+  .logo a img {
+    width: 150px;
+    
+  }
+  
   /*topo site*/
   section.topo-site .flex {
     gap: 40px;
